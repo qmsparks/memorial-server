@@ -28,7 +28,9 @@ const guestSchema = new Schema({
     type: Boolean,
     default: false
   }
-})
+}, {
+  timestamps: true
+});
 
 const Guest = mongoose.model('Guest', guestSchema);
 
