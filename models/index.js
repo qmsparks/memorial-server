@@ -15,5 +15,5 @@ mongoose
 
 
 module.exports = {
-
+  Guest: require('./guest'),
 }
